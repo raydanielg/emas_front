@@ -1,14 +1,25 @@
-import { Geist, Geist_Mono, Roboto } from "next/font/google"
+import { Geist, Geist_Mono } from "next/font/google"
+import type { Metadata } from "next"
 
 import "@workspace/ui/globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@workspace/ui/lib/utils";
 
-const roboto = Roboto({subsets:['latin'],variable:'--font-sans'})
+export const metadata: Metadata = {
+  icons: {
+    icon: "/app_logo.webp",
+    apple: "/app_logo.webp",
+  },
+}
 
-const fontMono = Geist_Mono({
+const geistSans = Geist({
+  variable: "--font-sans",
   subsets: ["latin"],
+})
+
+const geistMono = Geist_Mono({
   variable: "--font-mono",
+  subsets: ["latin"],
 })
 
 export default function RootLayout({
@@ -20,7 +31,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn("antialiased", fontMono.variable, "font-sans", roboto.variable)}
+      className={cn("antialiased", geistSans.variable, geistMono.variable)}
     >
       <body>
         <ThemeProvider>{children}</ThemeProvider>
