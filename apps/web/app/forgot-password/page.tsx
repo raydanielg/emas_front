@@ -1,4 +1,5 @@
 import { ForgotPasswordForm } from "@/components/forgot-password-form"
+import { ChatBot } from "@/components/chat-bot"
 
 export default function ForgotPasswordPage() {
   return (
@@ -11,6 +12,7 @@ export default function ForgotPasswordPage() {
       <div className="relative w-full max-w-sm md:max-w-4xl">
         <ForgotPasswordForm />
       </div>
+      <ChatBot />
     </div>
   )
 }

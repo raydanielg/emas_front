@@ -1,4 +1,5 @@
 import { LoginForm } from "@/components/login-form"
+import { ChatBot } from "@/components/chat-bot"
 
 export default function Page() {
   return (
@@ -11,6 +12,7 @@ export default function Page() {
       <div className="relative w-full max-w-sm md:max-w-4xl">
         <LoginForm />
       </div>
+      <ChatBot />
     </div>
   )
 }

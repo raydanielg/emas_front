@@ -1,4 +1,5 @@
 import { VerifyOtpForm } from "@/components/verify-otp-form"
+import { ChatBot } from "@/components/chat-bot"
 
 export default function VerifyOtpPage() {
   return (
@@ -11,6 +12,7 @@ export default function VerifyOtpPage() {
       <div className="relative w-full max-w-sm md:max-w-4xl">
         <VerifyOtpForm />
       </div>
+      <ChatBot />
     </div>
   )
 }

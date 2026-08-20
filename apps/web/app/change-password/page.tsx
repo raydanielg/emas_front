@@ -1,4 +1,5 @@
 import { ChangePasswordForm } from "@/components/change-password-form"
+import { ChatBot } from "@/components/chat-bot"
 
 export default function ChangePasswordPage() {
   return (
@@ -11,6 +12,7 @@ export default function ChangePasswordPage() {
       <div className="relative w-full max-w-sm md:max-w-4xl">
         <ChangePasswordForm />
       </div>
+      <ChatBot />
     </div>
   )
 }

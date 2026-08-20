@@ -1,4 +1,5 @@
 import { SignupForm } from "@/components/signup-form"
+import { ChatBot } from "@/components/chat-bot"
 
 export default function SignupPage() {
   return (
@@ -11,6 +12,7 @@ export default function SignupPage() {
       <div className="relative w-full max-w-sm md:max-w-4xl">
         <SignupForm />
       </div>
+      <ChatBot />
     </div>
   )
 }
