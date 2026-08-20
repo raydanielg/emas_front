@@ -63,7 +63,7 @@ export function ChangePasswordForm({
             </div>
             <div className="relative hidden bg-muted md:block">
               <img
-                src="/images/bg.jpg"
+                src="/27312130_green_halftone_border_background.jpg"
                 alt="EMAS background"
                 className="absolute inset-0 h-full w-full object-cover"
               />
@@ -197,7 +197,7 @@ export function ChangePasswordForm({
           </form>
           <div className="relative hidden bg-muted md:block">
             <img
-              src="/images/bg.jpg"
+              src="/27312130_green_halftone_border_background.jpg"
               alt="EMAS background"
               className="absolute inset-0 h-full w-full object-cover"
             />

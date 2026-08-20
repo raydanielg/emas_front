@@ -111,7 +111,7 @@ export function LoginForm({
           </form>
           <div className="relative hidden bg-muted md:block">
             <img
-              src="/27312130_green_halftone_border_background.jpg"
+              src="/images/bg.jpg"
               alt="EMAS background"
               className="absolute inset-0 h-full w-full object-cover"
             />
